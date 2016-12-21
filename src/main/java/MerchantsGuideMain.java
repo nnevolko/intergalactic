@@ -21,8 +21,8 @@ public class MerchantsGuideMain {
 
 	public static void main(String[] args) {
 		// read train routes
-		List<String> intergalacticInputLines = readInput("src/resources/intergalactic_lan1.txt");
-		List<String> merchandisePossible = readInput("src/resources/metals.txt");
+		List<String> intergalacticInputLines = readInput("src/main/resources/intergalactic_lan1.txt");
+		List<String> merchandisePossible = readInput("src/main/resources/metals.txt");
 		if (DEBUG) {
 			System.out.println(intergalacticInputLines.toString());
 		}
