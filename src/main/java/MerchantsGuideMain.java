@@ -66,7 +66,7 @@ public class MerchantsGuideMain {
 
 		for (String amount : howMuchIsList) {
 			int amountInCredits = newConverter.convert(amount);
-			System.out.println(amount + " -> " + amountInCredits + " Credits");
+			System.out.println(amount + " -> " + amountInCredits);
 		}
 
 		if (DEBUG) {
